@@ -31,7 +31,7 @@ void setup() {
   used = new boolean[width/px][height/px]; // initialised to false by default
 }
 
-void draw() {
+draw() {
   int i, j;
   int drawingframes = width * height / px / px;
   int textframesdelay = (int)(500 * frameRate / 1000);
